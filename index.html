@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sameh Jamal" />
+    <meta name="description" content="First webpage ever!" />
+    <meta name="keyword" content="HTML, CSS, JavaScript" />
+    <title>HTML entities ampersand</title>
+    <link
+      rel="icon"
+      href="assets/images/Facebook Logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  </head>
+  <body>    
+    <!-- TODO: Add more places -->
+    <header>
+        <!-- article element: We use it if it is an own topic -->
+        <!-- section is more generic -->
+        <!-- aria-label is required if we have more than one in same page -->
+        <!-- <nav aria-label="primary-navigation"> --> <!--This is without heading -->
+            <!-- If we include a heading which is not required we must do: -->
+            <nav aria-labelledby="primary-navigation">
+            <h2 id="primary-navigation">Primary Navigation</h2>
+
+        </nav>
+    </header>
+    <main>
+    <h1>Hello Mother Fucker!</h1>
+    <p>Hello bitches. This the first webpage and we're gonna hit the ground.</p>
+    <section>
+        <h3>Nature and Environment</h3> <!-- We should create a sup heading -->
+    <figure>
+        <figcaption>It's 5 o'clock somewhere!</figcaption>
+        <img src="assets/images/grassNature.jpg" alt="Green grass" title="I lobe nature" width="200" loading="eager"> <!-- This is by default(eager) --> 
+    </figure>
+    </section>
+    <aside style="width: 30%; padding: 15px; margin: 15px; float: right; font-style: italic; background-color: lightGray";>
+        <details>
+            <summary>Guess <mark>the number</mark>of hours I code per day?</summary>
+            <p>I start at <time datetime="08:00">8 am</time> o'clock everyday in the morning, and I keep coding for <time datetime="PT3H">3 hours</time></p>
+        </details>
+    </aside>
+    <figure>
+        <img src="assets/images/waterFlow.jpg" alt="Water Flow" title="So lovely" width="200" loading="lazy">
+        <figcaption>It's 5 o'clock somewhere</figcaption>
+    </figure>
+    <br>
+    <img src="assets/images/womenCloud.jpg" alt="woman cloud" title="Dream" width="200" loading="lazy">
+    <br><br><br><br><br><br><br><br><br><br>
+    <p>This is an HTML tag <code>&lt;HTML&gt;</code></p> <!-- We wrapped it in a paragraph (code is an inline element it doesn't create a line break, and Paragraph is a block element)-->
+    <hr>
+    <table>
+      <caption>My Daily Schedule</caption>
+      <thead>
+        <tr>
+          <th>&nbsp;</th>
+          <th scope="col">Time</th>
+          <th scope="col">Activities</th>
+        </tr>
+        <tr>
+          <th scope="row">Morning</th>
+          <td>
+            <time datetime="08:00">8 am</time>-<time datetime="12:00">12 pm</time>
+          </td>
+          <td>
+            <time datetime="12:00">12 am</time>-<time datetime="14:00">14 pm</time>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Break</th>
+          <td>
+            <time datetime="14:00">14 am</time>-<time datetime="16:00">16 pm</time>
+          </td>
+          <td>
+            <time datetime="16:00">16 am</time>-<time datetime="18:00">18 pm</time>
+          </td>
+        </tr>
+        <tr>
+        <th scope="row">Afternoon</th>
+        <td>
+          <time datetime="18:00">18 am</time>-<time datetime="20:00">20 pm</time>
+        </td>
+        <td>
+          <time datetime="20:00">20 am</time>-<time datetime="22:00">22 pm</time>
+        </td>
+        </tr>
+        <tr>
+          <th scope="row">Evening</th>
+          <td rowspan="2">All Other Times</td>
+          <td>Free Time</td>
+        </tr>
+        <tr>
+          <th scope="row">Night</th>
+          <td>Sleep</td>
+        </tr>
+        <tr>
+          <td colspan="3">And that's what I do every day, 5 days a week. Just eat, sleep, code ..and recharge!</td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      <tfoot></tfoot>
+    </table>
+    </main>
+    <footer>
+    <!-- <p>p.box</p>
+    <p class="box"></p> -->
+    <a class="spotify-btn-download" href="assets/images/Spotify Logo.png" download>Download Spotify Logo</a>
+    <div class="my-paragraph">
+    <p class="paragraph">&nbsp;... The searchers <strong>must keep within</strong> the whole hall!</p>
+    <p class="paragraph">&lt;&lt;&lt; &copy; Sam Jamal &gt;&gt;&gt;</p>
+    <p>Here is <abbr title="Mozilla Developer Network">MDN</abbr></p>
+    <p>&lt;&lt;&lt; &copy; Sam Fabio &gt;&gt;</p>
+    </div>
+    <a href="https://www.Facebook.com" rel="noopener" target="_blank" >Facebook</a>
+    <hr>
+    <h2>let me tell you how</h2>
+    <ol>
+      <li>...I learn more about web dev.</li>
+      <li>
+        ...I use resources form <abbr title="Youtube">
+            <a  href="https://www.youtube.com" target="_blank" rel="noopener" alt="This is our Youtube channel">Youtube</a>
+        </abbr>
+      </li>
+      <ul>
+        <li><a href="mailto:sam@gmail.com">Contact me</a> </li>
+        <li>
+            Dial <a href="tel:+123456">Dial my phone number</a>
+        </li>
+        <li>
+            <a href="/">Back to Home</a>
+        </li>
+      </ul>
+      
+      <br>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste vel aperiam numquam hic aliquid temporibus vitae aliquam qui ab, itaque, esse fugiat ducimus perferendis quas deserunt mollitia, vero nihil sequi.
+      </p>
+      <p class="back-btn"><a class="btn-text" href="#">Back to Top</a> </p>
+    </footer>
+  </body>
+</html>
+
+

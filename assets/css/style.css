@@ -1,0 +1,19 @@
+table, th, tr, td, caption {
+    border: 1px solid black;
+    font-family: 'poppins', sans-serif;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: pink;
+}
+mark {
+    background-color: red;
+    color: white;
+    padding: 6px;
+    transition: 0.5s;
+    border-radius: 10px 0 10px 0;
+}
+mark:hover, mark:active {
+    background-color: orange;
+    color: black;
+}
